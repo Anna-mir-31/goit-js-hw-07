@@ -12,14 +12,6 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-.container {
-  font-family: Montserrat;
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
 
 /* Task 1 - Categories list */
 ul {
@@ -72,9 +64,11 @@ ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  padding: 0;
-  justify-content: center;
   gap: 48px 24px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .gallery li {
@@ -83,8 +77,8 @@ ul {
 }
 
 .gallery img {
-  width: 350px;
-  height: 220px;
+  width: 360px;
+  height: 300px;
   object-fit: cover;
   display: block;
 }
