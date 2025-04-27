@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+.container {
+  font-family: Montserrat;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Task 1 - Categories list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.item ul li {
+  background-color: #f6f6fe;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.item h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+#categories {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  width: 440px;
+  height: 888px;
+  margin: auto;
+}
+
+.item {
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 0px;
+  margin-bottom: 24px;
+}
+
+.item ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Task 2 - Gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  gap: 48px 24px;
+}
+
+.gallery li {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.gallery img {
+  width: 350px;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Task 3 - Input greeting */
+.greeting {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+#name-input {
+  width: 360px;
+  height: 40px;
+  padding: 0 16px;
+  font-size: 16px;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+#name-input:focus {
+  border-color: #000000;
+  outline: none;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  color: #2e2f42;
+  line-height: 1.33;
+  margin: 0;
+}
+
+/* Task 4 - Login form */
+.login-form {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: auto;
+  width: 408px;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.login-form input {
+  margin-top: 8px;
+  width: 360px;
+  height: 40px;
+  padding: 0 16px;
+  font-size: 16px;
+  border: 1px solid #808080;
+  border-radius: 8px;
+}
+.login-form input:focus {
+  border-color: #000000;
+  outline: none;
+}
+
+.login-form button {
+  margin-top: 8px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  color: white;
+  cursor: pointer;
+  width: 86px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+}
+
+.login-form button:hover {
+  background-color: #6c8cff;
+}
+
+/* Task 5 - Color change widget */
+.widget {
+  background-color: #ffffff;
+  padding: 100px 88px;
+  border-radius: 8px;
+  text-align: center;
+  margin: auto;
+  width: 345px;
+}
+.widget p {
+  margin: 0;
+}
+
+.widget button {
+  margin-top: 16px;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+}
+
+.widget button:hover {
+  background-color: #6c8cff;
+}
